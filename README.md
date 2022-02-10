@@ -7,8 +7,7 @@ The implementation will be graded based on correctness and performance.
 
 - You will submit a single runnable jar that will be used for both compression and decompression. Your jar should be named as huffman_<id>.jar. Replace id with your group id. The jar must include the source code files.
 To use it for compressing an input file, the following will be called:
-  <h1>java -jar huffman_<id>.jar c absolute_path_to_input_file n</h1>
-c means compressing the file.
+  <h1>java -jar huffman_<id>.jar c absolute_path_to_input_file n</h1> c means compressing the file.
 n is the number of bytes that will be considered together.
 To use it for decompressing an input file, the following be called:
 <h1>java -jar huffman_<id>.jar d absolute_path_to_input_file</h1>
