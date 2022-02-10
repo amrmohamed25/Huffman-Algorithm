@@ -1,4 +1,5 @@
 # Huffman-Algorithm
+# NOTE: To run project : you should use the command line on the directory of HuffmanFinal_jar.
 In this part, it is required to implement Huffman's algorithm that we discussed in the greedy algorithms lecture. Your implementation should allow compressing and decompressing arbitrary files. As discussed in class, the implementation should collect statistics from the input file first, then apply the compression algorithm. Note that you will need to store a reasonable representation of the codewords in the compressed file, so that you can decompress the file back. 
 Your program should have the capability of considering more than one byte. For example, instead of just collecting the frequencies and finding codewords for single bytes. The same can be done assuming the basic unit is n bytes, where n is an integer.
 The implementation will be graded based on correctness and performance.
